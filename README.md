@@ -59,3 +59,18 @@ Configurations required
 Accessing the pages
 -----------------------
 Navigate to <OpenMRS base url>/htmltojson/htmlFormToJsonHome.page
+
+## Running the Converter
+
+### Prerequisites
+- Java 8+
+- Maven
+- HTML Form Entry (HFE) form file
+
+### Steps
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/openmrs/hfe-o3-form-schema-converter.git
+cd hfe-o3-form-schema-converter
